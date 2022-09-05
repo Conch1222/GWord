@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{15EF0688-54BB-AA94-8221-74CA88DC1343}</ProjectGuid>
+    <ProjectGuid>{41F10C77-A33C-084C-54F4-8572F74CA2D3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,11 +53,21 @@
     <UnityVersion>2019.4.36f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\DeleteButtonClicked.cs" />
-    <Compile Include="Assets\Scripts\EnterButtonClicked.cs" />
-    <Compile Include="Assets\Scripts\LetterButtonClicked.cs" />
+    <Compile Include="Assets\Scripts\DeleteButtonEvent.cs" />
+    <Compile Include="Assets\Scripts\EnterButtonEvent.cs" />
+    <Compile Include="Assets\Scripts\GameLoadingCenter.cs" />
+    <Compile Include="Assets\Scripts\KeyboardInput.cs" />
+    <Compile Include="Assets\Scripts\LetterButtonController.cs" />
+    <Compile Include="Assets\Scripts\ResultController.cs" />
+    <Compile Include="Assets\Scripts\ReturnButtonEvent.cs" />
+    <Compile Include="Assets\Scripts\ScoreBoradHandler.cs" />
+    <Compile Include="Assets\Scripts\StartSceneController.cs" />
     <Compile Include="Assets\Scripts\Trie.cs" />
     <Compile Include="Assets\Scripts\Variable.cs" />
+    <Compile Include="Assets\Scripts\VocabularyLoadingCenter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Files\Vocabulary.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
